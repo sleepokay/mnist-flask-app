@@ -43,6 +43,7 @@ def parseImage(imgData):
     with open('output.png','wb') as output:
         output.write(base64.decodebytes(imgstr))
 
-if __name__ == "__main__":
-	port = int(os.environ.get('PORT', 5000))
-	app.run(host='0.0.0.0', port=port)
+if __name__ == '__main__':
+     app.debug = True
+     port = int(os.environ.get("PORT", 5000))
+     app.run(host='0.0.0.0', port=port)
