@@ -7,9 +7,9 @@ from keras.layers import Conv2D, MaxPooling2D
 from keras import backend as K
 import json
 
-batch_size = 128
+batch_size = 32
 num_classes = 10
-epochs = 12
+epochs = 60
 
 # input image dimensions
 img_rows, img_cols = 28, 28
@@ -66,4 +66,4 @@ print('Test accuracy:', score[1])
 
 with open('model.json', 'w') as outfile:
     json.dump(model.to_json(), outfile)
-model.save_weights('weights.h5')
+model.save_weights('weights2.h5')
