@@ -5,10 +5,7 @@ html {
 	background: #EEE;}
 
 h1 {
-	position: absolute;
-	top: 20px;
-	left: 0;
-	right: 0;
+	position: relative;
 	text-align: center;
 	font-family: 'Open Sans', Helvetica;
 	color: #807F7D;
