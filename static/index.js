@@ -18,8 +18,8 @@
 		lastMouse.x = Mouse.x;
 		lastMouse.y = Mouse.y;
 
-		Mouse.x = e.pageX - this.offsetLeft;
-		Mouse.y = e.pageY - this.offsetTop;
+		Mouse.x = e.pageX - this.offsetLeft-15;
+		Mouse.y = e.pageY - this.offsetTop-15;
 	}, false);
 
 	canvas.addEventListener("mousedown", function(e) {

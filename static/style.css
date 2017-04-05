@@ -5,8 +5,10 @@ html {
 	background: #EEE;}
 
 h1 {
-	position: relative;
+	position: absolute;
 	text-align: center;
+	left:0;
+	right:0;
 	font-family: 'Open Sans', Helvetica;
 	color: #807F7D;
 	font-size: 25px;
